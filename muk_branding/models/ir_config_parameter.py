@@ -25,13 +25,13 @@ from odoo.modules import get_resource_path
 from odoo.tools import mute_logger, ormcache, config
 
 BRANDING_PARAMS = {
-    'muk_branding.system_name': config.get('branding_system_name', 'System'),
-    'muk_branding.publisher': config.get('branding_publisher', 'Example'),
-    'muk_branding.website': config.get('branding_website', 'https://www.example.com'),
-    'muk_branding.documentation': config.get('branding_documentation', 'https://www.example.com'),
-    'muk_branding.support': config.get('branding_support', 'https://www.example.com/support'),
-    'muk_branding.store': config.get('branding_store', 'https://www.example.com/store'),
-    'muk_branding.share': config.get('branding_share', 'https://www.example.com'),
+    'muk_branding.system_name': config.get('branding_system_name', 'ERPLibre'),
+    'muk_branding.publisher': config.get('branding_publisher', 'TechnoLibre'),
+    'muk_branding.website': config.get('branding_website', 'https://erplibre.ca'),
+    'muk_branding.documentation': config.get('branding_documentation', 'https://erplibre.ca'),
+    'muk_branding.support': config.get('branding_support', 'https://erplibre.ca/support'),
+    'muk_branding.store': config.get('branding_store', 'https://erplibre.ca/store'),
+    'muk_branding.share': config.get('branding_share', 'https://erplibre.ca'),
 }
 
 class IrConfigParameter(models.Model):
